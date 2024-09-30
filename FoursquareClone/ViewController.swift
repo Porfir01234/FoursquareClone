@@ -2,11 +2,11 @@
 //  ViewController.swift
 //  FoursquareClone
 //
-//  Created by Jazmin on 30/09/24.
+//  Created by Porfirio on 30/09/24.
 //
 
 import UIKit
-
+import ParseSwift
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
