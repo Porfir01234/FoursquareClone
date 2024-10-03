@@ -7,10 +7,11 @@
 
 import UIKit
 import Parse
-class ViewController: UIViewController {
-    @IBOutlet weak var userNameText: UITextField!
+class SignUpVC: UIViewController {
     
+    @IBOutlet weak var userNameText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup
@@ -47,8 +48,7 @@ class ViewController: UIViewController {
                     self.performSegue(withIdentifier: "toPlacesVC", sender: nil)
                 }
             }
-            
-            
+               
         } else {
             makeAlert(titleInput: "Error", messageInput: "Username / Password??")
         }
