@@ -223,7 +223,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="NLl-3q-Wmu"/>
                     <connections>
-                        <outlet property="placeAtmosphere" destination="hq6-cN-ygU" id="DKH-QJ-WDg"/>
+                        <outlet property="placeAtmosphereText" destination="hq6-cN-ygU" id="DKH-QJ-WDg"/>
                         <outlet property="placeImageView" destination="Lou-Jq-uwA" id="23C-D0-S54"/>
                         <outlet property="placeNameText" destination="dbH-Ds-EL9" id="gVK-vi-DEm"/>
                         <outlet property="placeTypeText" destination="ie7-nA-kOd" id="GIe-IT-etU"/>

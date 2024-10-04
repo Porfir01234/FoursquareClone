@@ -10,6 +10,7 @@
 		E4716F4A12C7B9874F86F261 /* Pods_FoursquareClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F718239E307D9C89DD26CF07 /* Pods_FoursquareClone.framework */; };
 		F12D283B2CAF117100196477 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D283A2CAF117100196477 /* MapVC.swift */; };
 		F12D283D2CAF249300196477 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D283C2CAF249300196477 /* DetailsVC.swift */; };
+		F12D28422CAF53EC00196477 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D28412CAF53EC00196477 /* PlaceModel.swift */; };
 		F1E9850B2CAB25C700380F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9850A2CAB25C700380F34 /* AppDelegate.swift */; };
 		F1E9850D2CAB25C700380F34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9850C2CAB25C700380F34 /* SceneDelegate.swift */; };
 		F1E9850F2CAB25C700380F34 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9850E2CAB25C700380F34 /* SignUpVC.swift */; };
@@ -25,6 +26,7 @@
 		735C5C2DD40739EDA070DCBB /* Pods-FoursquareClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.debug.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.debug.xcconfig"; sourceTree = "<group>"; };
 		F12D283A2CAF117100196477 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		F12D283C2CAF249300196477 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		F12D28412CAF53EC00196477 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		F1E985072CAB25C700380F34 /* FoursquareClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E9850A2CAB25C700380F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1E9850C2CAB25C700380F34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,34 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F12D283E2CAF539500196477 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9850E2CAB25C700380F34 /* SignUpVC.swift */,
+				F1E9851E2CADE59600380F34 /* PlacesVC.swift */,
+				F1E985202CAE0BF200380F34 /* AddPlaceVC.swift */,
+				F12D283A2CAF117100196477 /* MapVC.swift */,
+				F12D283C2CAF249300196477 /* DetailsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F12D283F2CAF53A900196477 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1E985102CAB25C700380F34 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F12D28402CAF53BB00196477 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F12D28412CAF53EC00196477 /* PlaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F1E984FE2CAB25C700380F34 = {
 			isa = PBXGroup;
 			children = (
@@ -90,12 +120,9 @@
 			children = (
 				F1E9850A2CAB25C700380F34 /* AppDelegate.swift */,
 				F1E9850C2CAB25C700380F34 /* SceneDelegate.swift */,
-				F1E9850E2CAB25C700380F34 /* SignUpVC.swift */,
-				F1E9851E2CADE59600380F34 /* PlacesVC.swift */,
-				F1E985202CAE0BF200380F34 /* AddPlaceVC.swift */,
-				F12D283A2CAF117100196477 /* MapVC.swift */,
-				F12D283C2CAF249300196477 /* DetailsVC.swift */,
-				F1E985102CAB25C700380F34 /* Main.storyboard */,
+				F12D28402CAF53BB00196477 /* Model */,
+				F12D283E2CAF539500196477 /* Controller */,
+				F12D283F2CAF53A900196477 /* View */,
 				F1E985132CAB25C900380F34 /* Assets.xcassets */,
 				F1E985152CAB25C900380F34 /* LaunchScreen.storyboard */,
 				F1E985182CAB25C900380F34 /* Info.plist */,
@@ -219,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1E985212CAE0BF200380F34 /* AddPlaceVC.swift in Sources */,
+				F12D28422CAF53EC00196477 /* PlaceModel.swift in Sources */,
 				F12D283B2CAF117100196477 /* MapVC.swift in Sources */,
 				F1E9850F2CAB25C700380F34 /* SignUpVC.swift in Sources */,
 				F1E9850B2CAB25C700380F34 /* AppDelegate.swift in Sources */,
