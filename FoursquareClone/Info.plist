@@ -21,6 +21,8 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Permite que la aplacacion use su ubicacion </string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Permite que la aplicacion acceda a su galeria </string>
 </dict>
