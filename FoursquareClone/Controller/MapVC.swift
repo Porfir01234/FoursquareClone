@@ -56,7 +56,7 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         let span = MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
         let region = MKCoordinateRegion(center: location, span: span)
         mapView.setRegion(region, animated: true)
-        
+       
     }
     
     @objc func saveButtonClicked() {

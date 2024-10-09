@@ -96,7 +96,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ebU-qt-1EE">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="44" width="393" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -126,11 +126,11 @@
             <objects>
                 <viewController id="sIB-Fl-Fn0" customClass="DetailsVC" customModule="FoursquareClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QsQ-mS-bfh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F06AD5A2-2E62-4162-A9E0-0AAADE59957B" translatesAutoresizingMaskIntoConstraints="NO" id="ruP-F6-wGu">
-                                <rect key="frame" x="0.0" y="45" width="393" height="227"/>
+                                <rect key="frame" x="0.0" y="89" width="393" height="227"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="227" id="0YE-Qs-8CQ"/>
                                 </constraints>
@@ -154,7 +154,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yVA-TU-uHX">
-                                <rect key="frame" x="0.0" y="467" width="393" height="385"/>
+                                <rect key="frame" x="0.0" y="511" width="393" height="351"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="placeAtmosphere" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nK6-rA-kUr">
@@ -206,7 +206,7 @@
             <objects>
                 <viewController id="CDn-pV-T3E" customClass="AddPlaceVC" customModule="FoursquareClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yTp-PM-Cye">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="F06AD5A2-2E62-4162-A9E0-0AAADE59957B" translatesAutoresizingMaskIntoConstraints="NO" id="Lou-Jq-uwA">
@@ -284,12 +284,12 @@
                     <navigationItem key="navigationItem" id="OcV-zN-0TP"/>
                     <connections>
                         <outlet property="mapView" destination="Mas-pZ-o6F" id="Hoc-xL-7Cx"/>
-                        <segue destination="cIX-Tf-xtD" kind="presentation" identifier="fromMapVCPlacesVc" modalPresentationStyle="fullScreen" id="1zn-go-wl2"/>
+                        <segue destination="ymx-ia-DVH" kind="presentation" identifier="fromMapVCPlacesVc" modalPresentationStyle="fullScreen" id="DHQ-zD-dJT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6eq-mO-I4i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5576.3358778625952" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="5419" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9er-Sq-cTU">
@@ -331,7 +331,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1zn-go-wl2"/>
+        <segue reference="DHQ-zD-dJT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="F06AD5A2-2E62-4162-A9E0-0AAADE59957B" width="302" height="271"/>
